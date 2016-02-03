@@ -1,0 +1,27 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: louwersconcepts_dev
+  username: postgres
+  password: postgres
+  pool:     5
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: louwersconcepts_test
+  username: postgres
+  password: postgres
+  pool:     5
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: louwersconcepts
+  pool:     5
+  username: postgres
+  password: password
+
