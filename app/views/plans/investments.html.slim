@@ -1,0 +1,1864 @@
+
+header
+  section.hero
+    .container
+      .row.nav-wrapper
+        nav.navbar.navbar-custom
+          .container-fluid
+            /! Brand and toggle get grouped for better mobile display
+            .navbar-header
+              a.navbar-brand href="#" 
+                = image_tag 'logo.png', alt: 'logo'
+            /! Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                  a href="#how"  Ondernemingsplan maken
+                li
+                  a href="#features"  Tips
+                li
+                  a href="#pricing"  Contact
+                li
+                  a href="#"  Log In
+            /! /.navbar-collapse
+          /! /.container-fluid
+        /! end nav
+      /! End row
+      .row.hero-content.text-center
+        .col-sm-12
+          h1 In 4 stappen een ondernemingsplan
+      .row
+        .col-lg-1
+        .col-lg-10
+          ul.nav.nav-tabs.nav-justified
+            li
+              a aria-expanded="false" data-toggle="tab" href="#home-2" 
+                span.visible-xs ALGEMEEN
+                span.hidden-xs ALGEMEEN
+            li
+              a aria-expanded="true" data-toggle="tab" href="#product-dienst-2" 
+                span.visible-xs MARKETINGPLAN
+                span.hidden-xs MARKETINGPLAN
+            li.active
+              a aria-expanded="false" data-toggle="tab" href="#messages-2" 
+                span.visible-xs FINANCIEEL PLAN
+                span.hidden-xs FINANCIEEL PLAN
+            li
+              a aria-expanded="false" data-toggle="tab" href="#settings-2" 
+                span.visible-xs DOWNLOAD
+                span.hidden-xs DOWNLOAD
+        .col-lg-1
+      /! End row
+    /! end container
+  /! end hero
+/! Main Content Start
+section.content
+  /! Header
+  /! Header Ends
+  /! Page Content Start
+  /! ==================
+  .container
+    .wraper.container-fluid
+      .page-title
+      /! End row
+      .row
+        .col-lg-12
+          .tabs-vertical-env
+            ul.nav.tabs-vertical.hidden-xs
+              li.active
+                a aria-expanded="true" data-toggle="tab" href="#v-home"  1. Investeringen
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-product-dienst"  2. Financiering / Lening
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-messages"  3. Openingsbalans
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-settings"  4. Privé begroting
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-bedrijfsformule"  5. Verkoopprognose
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-inkoop"  6. Inkoopprognose
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-liquiditeit"  7. Liquiditeitsbegroting
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-exploitatie"  8. Exploitatiebegroting
+            .tab-content
+              #v-home.tab-pane.active
+                .row
+                  .col-sm-12
+                    /! Input States
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Investeringen
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Lange termijn
+                        .col-sm-2
+                          p Zelf betaald
+                        .col-sm-2
+                          p Elders gefinancierd
+                        .col-sm-2
+                          p Nog te financieren
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Er moet nog
+                            u verbouwd
+                            | worden, waarvan de volgende kosten voor onze/mijn rekening komen.
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Er is
+                            b inventaris
+                            | en/of
+                            b bedrijfsinrichting
+                            | (nodig), zoals bijvoorbeeld bureaustoelen etc.
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Er is/zijn
+                            b computer(s)
+                            | en/of
+                            
+                            b software
+                            p 
+                              |= "."
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Er is/zijn (een)
+                            b transportmiddel(len)
+                            | aangeschaft / aan te schaffen.
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Er is of moet geïnvesteerd worden in
+                            
+                            b huurgarantie
+                            | ","
+                            b goodwill
+                            | en/of
+                            
+                            b franchisefee
+                            | "."
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Overige lange termijn investeringen.
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      /! Input States
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Korte termijn (
+                        .col-sm-2
+                          p Zelf betaald
+                        .col-sm-2
+                          p Elders gefinancierd
+                        .col-sm-2
+                          p Nog te financieren
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Er is of wordt voorraad aangeschaft voor product 1?
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Er is of wordt voorraad aangeschaft voor product 2?
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Er is of wordt voorraad aangeschaft voor product 3?
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Er zijn of worden promotiekosten en of aanloopkosten gemaakt.
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Er is geld nodig voor het overbruggen van het betalingstermijn van debiteuren.
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Er moet een kas reserve komen.
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                  /! End row
+                  .col-sm-12.text-center
+                    button.btn.btn-success.btn-lg.m-b-5
+                      span Volgende stap
+                      i.fa.fa-angle-right
+              #v-product-dienst.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Financiering
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Bestaande financiering
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p
+                            | Er is een achtergestelde lening(en) van vrienden, kenissen of familie.
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      /! Input States
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Nieuwe financiering
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Ik breng zelf geld in.
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p
+                            | Er komt nog een achtergestelde lening(en) van vrienden, kenissen of familie.
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Er is nog overige financiering nodig.
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Datum ontvangst overige financiering of achtergestelde leningen.
+                        .col-sm-4
+                          input#example-input.form-control.input data-mask="99-99-9999" placeholder="(DD-MM-JJJJ)" type="text" /
+                        .col-sm-1
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Lening
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Hoeveel jaar is de looptijd van je lening? (wanneer van toepassing)
+                        .col-sm-4
+                          select.form-control.input placeholder="Geslacht" 
+                            option 1
+                            option 2
+                            option 3
+                            option 4
+                            option 5
+                            option 6
+                            option 7
+                            option 8
+                            option 9
+                            option 10
+                            option 11
+                            option 12
+                            option 13
+                            option 14
+                            option 15
+                            option 16
+                            option 17
+                            option 18
+                            option 19
+                            option 20
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Ontvangst datum lening.
+                        .col-sm-4
+                          input#example-input.form-control.input data-mask="99-99-9999" placeholder="(DD-MM-JJJJ)" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Na hoeveel maanden zou u willen aflossen?
+                        .col-sm-4
+                          select.form-control.input placeholder="Geslacht" 
+                            option 1
+                            option 2
+                            option 3
+                            option 4
+                            option 5
+                            option 6
+                            option 7
+                            option 8
+                            option 9
+                            option 10
+                            option 11
+                            option 12
+                            option 13
+                            option 14
+                            option 15
+                            option 16
+                            option 17
+                            option 18
+                            option 19
+                            option 20
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Welke manier van aflossen zou het best bij u passen?
+                        .col-sm-4
+                          select.form-control.input placeholder="Geslacht" 
+                            option Annuïteit
+                            option Lineair
+                        .col-sm-1
+                /! End row
+                .col-sm-12.text-center
+                  button.btn.btn-success.btn-lg.m-b-5
+                    span Volgende stap
+                    i.fa.fa-angle-right
+              #v-messages.tab-pane
+                .row
+                  .panel.panel-default
+                    .col-sm-12
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center (Openings) Balans
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Vreemd vermogen
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Heeft u of bent u van plan een lening bij de bank aan te vragen?
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Heeft u een lease contract of bent u van plan zaken te leasen?
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Start u met een lening?
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Bent u van plan een rekeningcourant bedrag aan te houden bij de bank?
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Start u met een crediteuren bedrag?
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Start u met een of meerdere schulden bij kredietinstellingen?
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-6
+                          p Start u met een openstaande belastingschuld?
+                        .col-sm-4
+                          input#example-input-normal.form-control name="example-input-normal" placeholder="€" type="text" /
+                        .col-sm-1
+                /! End row
+                .col-sm-12.text-center
+                  button.btn.btn-success.btn-lg.m-b-5
+                    span Volgende stap
+                    i.fa.fa-angle-right
+              #v-settings.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Privé begroting
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Welke rechtsvorm heeft uw bedrijf?
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option Eenmanszaak
+                            option V.O.F.
+                            option B.V.
+                        .col-sm-4
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Hoeveel ondernemers zijn eigenaar van het bedrijf?
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 1
+                            option 2
+                            option 3
+                        .col-sm-4
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Eigenaren
+                        .col-sm-2
+                          p Eigenaar 1
+                        .col-sm-2
+                          p Eigenaar 2
+                        .col-sm-2
+                          p Eigenaar 3
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Hoe ziet de
+                            b winstverdeling
+                            | eruit?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Aftrekposten
+                        .col-sm-6
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Komt u in aanmerking voor                            
+                            b zelfstandingenaftrek
+                            | "?"
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Komt u in aanmerking voor                            
+                            b startersaftrek
+                            | "?"
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Komt u in aanmerking voor                            
+                            b meewerkaftrek
+                            | "?"
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Komt u in aanmerking voor                            
+                            b investeringsaftrek
+                            | "?"
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Komt u in aanmerking voor                            
+                            b MKB-winstvrijstelling
+                            | "?"
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Komt u in aanmerking voor                            
+                            b oudedagsreserve
+                            | "?"
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Heffingskortingen
+                        .col-sm-6
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Komt u in aanmerking voor                            
+                            b algemene heffingskorting
+                            | "?"
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Komt u in aanmerking voor                            
+                            b arbeidskorting
+                            | "?"
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option JA
+                            option NEE
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          h4 Privé uitgaven
+                        .col-sm-6
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Hoe hoog is uw
+                            b huur, aflossing en/of rente hypotheek
+                            | maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat betaalt u per maand aan
+                            
+                            b gemeentelijke belastingen en heffingen
+                            | "?"
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat betaalt u per maand voor uw
+                            
+                            b telefoon en kabelaansluiting
+                            | "?"
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat zijn uw maandelijkse kosten voor                            
+                            b duurzame consumtiegoederen
+                            | "?"
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u nog maandelijks
+                            b terugkerende overige kosten
+                            | "?"
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat betaalt u voor uw
+                            b ziektenkostenverzekering
+                            | maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u een
+                            b arbeidsongeschiktheidsverzekering
+                            | en wat betaalt u maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u een                            
+                            b particuliere aansprakelijkheidsverzekering
+                            | ","
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u een
+                            b levensverzekering
+                            | ","
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u een
+                            b inboedelverzekering
+                            | ","
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u een
+                            b auto-, motorverzekering
+                            | ","
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u nog
+                            b andere verzekeringen?
+                            | Zo ja, wat betaalt u maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat zijn uw maandelijkse kosten voor
+                            b levensmiddelen?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat geeft u maandelijks uit aan
+                            b kleding, schoenen, ed.?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat geeft u maandelijks uit aan
+                            b uitgaan, uiteten ed.?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat geeft u maandelijks uit aan
+                            b sport?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat geeft u maandelijks uit aan
+                            b abonnementen en contributies?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat geeft u maandelijks uit aan
+                            b huisdieren?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Heeft u nog andere zaken die onder levensonderhoud vallen? Zo ja wat bent u eraan kwijt?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u kosten voor
+                            b openbaar vervoer?
+                            | Zo ja, wat geeft u eraan uit?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u kosten voor
+                            b uw auto of motor?
+                            | Zo ja, wat geeft u eraan uit? (niet inbegrepen verzekeringen)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u kosten voor uw
+                            b fiets?
+                            | Zo ja, wat geeft u eraan uit?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u
+                            b andere vervoerskosten
+                            | "?"
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat maakt u maandelijks vrij voor
+                            b vakantie?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat bent u maandelijks kwijt aan
+                            b kinderopvang?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat bent u maandelijks kwijt aan
+                            b studiekosten
+                            | "?"
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat bent u maandelijks kwijt aan
+                            b rente en aflossing
+                            | voor openstaande schulden?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u nog
+                            b andere uitgaven
+                            | ","
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Welk bedrag maakt u vrij voor
+                            b onvoorziene kosten?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Werkt u in
+                            b loondienst?
+                            | Zo ja, wat ontvangt u hieruit?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat is uw
+                            b maandelijks inkomen,
+                            | exclusief loondienst?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Krijgt u
+                            b toeslagen?
+                            | bijv. huur, zorg, kindertoeslag, etc
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Ontvangt u
+                            b kinderbijslag?
+                            | Zo ja, wat ontvangt u maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat zijn uw
+                            b overige maandelijkse ontvangsten?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u een
+                            b hypotheek?
+                            | Wat is de hoogte hiervan?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Heeft u een
+                            b opgebouwd kapitaal in uw polis,
+                            | die gekoppeld aan uw hypotheek?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat is het dekkingsbedrag van uw
+                            b overlijdensrisicoverzekering?
+                            | (alleen wanneer van toepassing)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                .col-sm-12.text-center
+                  button.btn.btn-success.btn-lg.m-b-5
+                    span Volgende stap
+                    i.fa.fa-angle-right
+              #v-bedrijfsformule.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Verkoopprognose
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Wat zijn uw belangrijkste 3 producten en/of diensten?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder=("Product/dienst 1") type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder=("Product/dienst 2") type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder=("Product/dienst 3") type="text" /
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-3
+                        .col-sm-1-5
+                          p Eerste maand
+                        .col-sm-1-5
+                          p Na 1 maand
+                        .col-sm-1-5
+                          p Na 2 maanden
+                        .col-sm-1-5
+                          p Na 3 maanden
+                        .col-sm-1-5
+                          p Oninbaar
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-3
+                          p
+                            | Welke
+                            b Betalingstermijn
+                            | hanteert u?
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                        .col-sm-2
+                          p Product / Dienst 1
+                        .col-sm-2
+                          p Product / Dienst 2
+                        .col-sm-2
+                          p Product / Dienst 3
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat voor een
+                            b BTW tarief
+                            | dient u te heffen voor uw product(en), dienst(en)?
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat is de
+                            b verkoopprijs
+                            | per product of dienst?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Gaat de
+                            b verkoopprijs veranderen
+                            | jaarlijks? Zo ja, met welk percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Hoeveel product(en)/dienst verwacht u te verkopen jaarlijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Hoeveel procent verwacht u jaarlijks te groeien?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                    /! End row
+                    .col-sm-12.text-center
+                      button.btn.btn-success.btn-lg.m-b-5
+                        span Volgende stap
+                        i.fa.fa-angle-right
+              #v-inkoop.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Inkoopprognose
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Welke belangrijkste 3 producten en/of diensten koopt u het meest in?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder=("Product/dienst 1") type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder=("Product/dienst 2") type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder=("Product/dienst 3") type="text" /
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-3
+                        .col-sm-1-5
+                          p Eerste maand
+                        .col-sm-1-5
+                          p Na 1 maand
+                        .col-sm-1-5
+                          p Na 2 maanden
+                        .col-sm-1-5
+                          p Na 3 maanden
+                        .col-sm-1-5
+                          p Oninbaar
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-3
+                          p Hoe snel betaalt u?
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-1-5
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                        .col-sm-2
+                          p Product / Dienst 1
+                        .col-sm-2
+                          p Product / Dienst 2
+                        .col-sm-2
+                          p Product / Dienst 3
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Wat voor een BTW tarieven heffen uw leveranciers?
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat is de
+                            b inkoopprijs
+                            | per product of dienst?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Gaat de
+                            b inkoopprijs veranderen
+                            | jaarlijks? Zo ja, met welk percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Hoeveel product(en)/diensten verwacht u in te kopen jaarlijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p Hoeveel procent verwacht u jaarlijks meer in te kopen?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                    /! End row
+                    .col-sm-12.text-center
+                      button.btn.btn-success.btn-lg.m-b-5
+                        span Volgende stap
+                        i.fa.fa-angle-right
+              #v-liquiditeit.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Liquiditeitbegroting
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                        .col-sm-2
+                          p Investeringen
+                        .col-sm-2
+                          p Huisvesting
+                        .col-sm-2
+                          p Kosten
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-original-title="" data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Wat voor een
+                            b BTW tarief
+                            | wordt er geheven op.
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                        .col-sm-2
+                          select.form-control.input-sm placeholder="Geslacht" 
+                            option 21%
+                            option 6%
+                            option 0%
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          p.lead Uitgaven
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Wat verwacht u te gaan uitgeven aan
+                            b personeelskosten, maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Verwacht u dat personeelskosten jaarlijks zullen stijgen? Zo ja met wat voor een
+                            b percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Wat verwacht u te gaan uitgeven aan
+                            b huisvestingskosten, maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Verwacht u dat de huisvestingkosten jaarlijks zullen stijgen? Zo ja met wat voor een
+                            b percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Wat verwacht u te gaan uitgeven aan
+                            b vervoer- en transportkosten, maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Verwacht u dat deze vervoer- en trasportkosten jaarlijks zullen stijgen? Zo ja met wat voor een
+                            b percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Wat verwacht u te gaan uitgeven aan
+                            b promotiekosten, maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Verwacht u dat deze promotiekosten jaarlijks zullen stijgen? Zo ja met wat voor een
+                            b percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Wat verwacht u te gaan uitgeven aan
+                            b overige bedrijfskosten, maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Verwacht u dat deze overige bedrijfskosten jaarlijks zullen stijgen? Zo ja met wat voor een
+                            b percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Wat verwacht u te gaan uitgeven aan
+                            b rente en of kosten voor andere leningen, maandelijks?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Verwacht u dat de rente en of kosten voor andere leningen jaarlijks zullen stijgen? Zo ja met wat voor een
+                            b percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Wat verwacht u te gaan uitgeven voor
+                            b aflossing van andere leningen?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Verwacht u dat de aflossing van andere leningen jaarlijks zullen stijgen? Zo ja met wat voor een
+                            b percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Wat verwacht u uzelf uit te keren aan
+                            b salaris (privéontrekking)?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p
+                            | Verwacht u dat uw salaris(privéontrekking) zal stijgen jaarlijks? Zo ja met wat voor een
+                            b percentage?
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="%" type="text" /
+                        .col-sm-2
+                    /! End row
+                    .col-sm-12.text-center
+                      button.btn.btn-success.btn-lg.m-b-5
+                        span Volgende stap
+                        i.fa.fa-angle-right
+              #v-exploitatie.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Exploitatiebegroting
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                        .col-sm-2
+                          p 2016
+                        .col-sm-2
+                          p 2017
+                        .col-sm-2
+                          p 2018
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-original-title="" data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-5
+                          p
+                            | Er wordt elk jaar een bepaald bedrag geinvesteerd aan producten die vervangen dienen te worden, omdat ze zijn versleten en aan vervanging toe zijn.
+                            b (Vervangingsinvestering)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="€" type="text" /
+                      .panel-body
+                        .col-sm-1
+                        .col-sm-5
+                          p.lead Levensduur investeringen in jaren
+                        .col-sm-2
+                          p
+                        .col-sm-2
+                          p Aantal jaar
+                        .col-sm-2
+                          p
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p Huisvesting: verbouwing (hoeveel jaar gaat deze verbouwing mee?)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p Inventaris en inrichting (hoeveel jaar gaat dit mee?)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p Computer en software (hoeveel jaar gaat dit mee?)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p Transportmiddel (hoeveel jaar gaat dit mee?)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p Goodwill / franchisefee / Huurgarantie (hoeveel jaar gaat dit mee?)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                      .panel-body
+                        .col-sm-1
+                          i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                        .col-sm-7
+                          p Overig (hoeveel jaar gaat dit mee?)
+                        .col-sm-2
+                          input#example-input-sm.form-control.input-sm name="example-input-sm" placeholder="" type="text" /
+                        .col-sm-2
+                  /! End row
+                  .col-sm-12.text-center
+                    button.btn.btn-success.btn-lg.m-b-5
+                      span Volgende stap
+                      i.fa.fa-angle-right
+    /! End row
+  /! container
+  /! Page Content Ends
+  /! ==================
+  /! Footer Start
+  footer.footer
+    .container
+      .row
+        .col-lg-3.col-md-3
+          a.navbar-brand-footer href="#" 
+            = image_tag 'logo.png', alt: 'logo'
+        .col-lg-5.col-lg-offset-2.col-md-7
+          ul.nav.navbar-nav
+            li
+              a href="#how"  How it works
+            li
+              a href="#features"  Features
+            li
+              a href="#pricing"  Pricing
+            li
+              a href="#clients"  Clients
+        .col-lg-2.col-md-2
+          ul.social-icons
+            li
+              a href="#" 
+                i.fa.fa-facebook
+            li
+              a href="#" 
+                i.fa.fa-twitter
+            li
+              a href="#" 
+                i.fa.fa-google-plus
+      /! end row
+    /! end container
+  /! Footer Ends
+/! Main Content Ends

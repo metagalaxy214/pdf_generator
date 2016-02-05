@@ -1,0 +1,92 @@
+.wraper.container-fluid
+  .page-title
+    h1.title.text-center Profiel bewerken
+  .row
+    .col-md-12
+      .panel.panel-default
+        .panel-body
+          form.form-horizontal role="form" 
+            .row
+              .form
+                form#signupForm.cmxform.form-horizontal.tasi-form action="#" method="get" novalidate="novalidate" 
+                  .form-group
+                    label.control-label.col-lg-2 for="firstname"  Voornaam *
+                    .col-lg-4
+                      input#Voornaam.form-control name="Voornaam" placeholder="Bram" type="text" /
+                    label.control-label.col-lg-2 for="Achternaam"  Achternaam  *
+                    .col-lg-4
+                      input#lastname.form-control name="lastname" placeholder="Louwers" type="text" /
+                  .form-group
+                    label.control-label.col-lg-2 for="postcode"  Postcode *
+                    .col-lg-2
+                      input#Voornaam.form-control name="Voornaam" placeholder="9999AA" type="text" /
+                    label.control-label.col-lg-1 for="Achternaam"  Huisnr  *
+                    .col-lg-1
+                      input#Voornaam.form-control name="Voornaam" placeholder="11" type="text" /
+                    label.control-label.col-lg-2 for="Achternaam"  Woonplaats  *
+                    .col-lg-4
+                      input#lastname.form-control name="lastname" placeholder="Amsterdam" type="text" /
+                  .form-group
+                    label.control-label.col-lg-2 for="email"  Email *
+                    .col-lg-4
+                      input#email.form-control name="email" placeholder="bramlouwers36@gmail.com" type="email" /
+                    label.control-label.col-lg-2 for="Achternaam"  Telefoonnummer  *
+                    .col-lg-4
+                      input#lastname.form-control name="lastname" placeholder="0613541501" type="text" /
+              .form-group
+                label.control-label.col-lg-2 for="email"  Geboortedatum *
+                .col-lg-4
+                  input#example-input-sm.form-control data-mask="99-99-9999" placeholder=("Geboortedatum (DD-MM-JJJJ)") type="text" /
+                label.control-label.col-lg-2 for="Achternaam"  Geboorteplaats  *
+                .col-lg-4
+                  input#lastname.form-control name="lastname" placeholder="Rotterdam" type="text" /
+              .form-group
+                label.control-label.col-lg-2 for="email"  Geslacht *
+                .col-lg-4
+                  select.form-control placeholder="Geslacht" 
+                    option Man
+                    option Vrouw
+                    option NVT
+                label.control-label.col-lg-2 for="Achternaam"  Nationaliteit  *
+                .col-lg-4
+                  input#lastname.form-control name="lastname" placeholder="Nederlander" type="text" /
+              .form-group
+                label.control-label.col-lg-2 for="email"  Burgelijke staat *
+                .col-lg-4
+                  select.form-control placeholder="Geslacht" 
+                    option Gehuwd
+                    option Ongehuwd
+                    option Samenwonend
+                    option Geregistreerd partnerschap
+                    option Weduwstaat
+                label.control-label.col-lg-2 for="Achternaam"  Rijbewijs  *
+                .col-lg-4
+                  select.select2.form-control.select2-offscreen data-placeholder="Rijbewijs" multiple="multiple" tabindex="-1" 
+                    option value=("A (Motorfiets)")  A (Motorfiets)
+                    option value=("AM (Bromfiets)")  AM (Bromfiets)
+                    option value=("B (Personenauto)")  B (Personenauto)
+                    option value=("BE (B+aanhangwagen)")  BE (B+aanhangwagen)
+                    option value=("C (Vrachtwagen)")  C (Vrachtwagen)
+                    option value=("CE (C+aanhangwagen)")  CE (C+aanhangwagen)
+                    option value=("C1 (Lichte vrachtwagen)")  C1 (Lichte vrachtwagen)
+                    option value=("C1E (C1+aanhangwagen)")  CE (C+aanhangwagen)
+                    option value=("D (Bus)")  D (Bus)
+                    option value=("DE (D+aanhangwagen)")  DE (D+aanhangwagen)
+                    option value=("D1 (Kleine bus)")  D1 (Kleine bus)
+                    option value=("D1E (D1+aanhangwagen)")  D1E (D1+aanhangwagen)
+                    option value=("G (Landbouwvoertuig)")  G (Landbouwvoertuig)
+              .form-group
+                label.control-label.col-lg-2 for="password"  Wachtwoord *
+                .col-lg-4
+                  input#password.form-control name="password" placeholder="*****" type="password" /
+              .form-group
+                label.control-label.col-lg-2 for="confirm_password"  Bevestiging wachtwoord *
+                .col-lg-4
+                  input#confirm_password.form-control name="confirm_password" placeholder="*****" type="password" /
+              .form-group
+                .col-lg-offset-2.col-lg-10
+                  button.btn.btn-success.btn-sm.m-b-5 type="submit"  Opslaan
+                  button.btn.btn-default.btn-sm.m-b-5 type="button"  Annuleren
+      /! panel-body
+    /! panel
+  /! col

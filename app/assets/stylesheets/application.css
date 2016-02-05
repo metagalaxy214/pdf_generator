@@ -10,6 +10,29 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ * require_tree .
+
+ *= require _compiler
+
+ *= require velonic/css/bootstrap.min
+ *= require velonic/css/bootstrap-reset
+ 
+ *= require velonic/css/animate
+ *= require velonic/assets/ionicon/css/ionicons.min
+ *= require velonic/assets/bootstrap-wysihtml5/bootstrap-wysihtml5
+ *= require velonic/assets/summernote/summernote
+ *= require velonic/assets/tagsinput/jquery.tagsinput
+
+ *= require velonic/assets/toggles/toggles
+ *= require velonic/assets/timepicker/bootstrap-timepicker.min
+ *= require velonic/assets/timepicker/bootstrap-datepicker.min
+ *= require velonic/assets/colorpicker/colorpicker
+ *= require velonic/assets/jquery-multi-select/multi-select
+ *= require velonic/assets/select2/select2
+
+ *= require velonic/css/style
+ *= require velonic/css/helper
+ *= require velonic/css/style-responsive
+
  *= require_self
- */
+*/

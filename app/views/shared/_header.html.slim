@@ -1,0 +1,76 @@
+header.top-head.container-fluid
+  button.navbar-toggle.pull-left type="button" 
+    span.sr-only Toggle navigation
+    span.icon-bar
+    span.icon-bar
+    span.icon-bar
+  /! Right navbar
+  ul.list-inline.navbar-right.top-menu.top-right-menu
+    /! mesages
+    li.dropdown
+      a.dropdown-toggle data-toggle="dropdown" href="#" 
+        i.fa.fa-envelope-o
+        span.badge.badge-sm.up.bg-purple.count 4
+      ul.dropdown-menu.extended.fadeInUp.animated.nicescroll tabindex="5001" 
+        li
+          p Messages
+        li
+          a href="#" 
+            span.pull-left
+              = image_tag 'avatar-2.jpg', class: 'img-circle thumb-sm m-r-15', alt: 'img'
+            span.block
+              strong John smith
+            span.media-body.block
+              | New tasks needs to be done
+              br/
+              small.text-muted 10 seconds ago
+        li
+          a href="#" 
+            span.pull-left
+              = image_tag 'avatar-3.jpg', class: 'img-circle thumb-sm m-r-15', alt: 'img'
+            span.block
+              strong John smith
+            span.media-body.block
+              | New tasks needs to be done
+              br/
+              small.text-muted 3 minutes ago
+        li
+          a href="#" 
+            span.pull-left
+              = image_tag 'avatar-4.jpg', class: 'img-circle thumb-sm m-r-15', alt: 'img'
+            span.block
+              strong John smith
+            span.media-body.block
+              | New tasks needs to be done
+              br/
+              small.text-muted 10 minutes ago
+        li
+          p
+            a.text-right href="inbox.html"  See all Messages
+    /! /messages
+    /! Notification
+    /! user login dropdown start
+    li.dropdown.text-center
+      a.dropdown-toggle data-toggle="dropdown" href="#" 
+        span.username John Deo
+        span.caret
+      ul.dropdown-menu.extended.pro-menu.fadeInUp.animated style=("overflow: hidden; outline: none;") tabindex="5003" 
+        li
+          a href="profile.html" 
+            i.fa.fa-briefcase
+            | Profile
+        li
+          a href="#" 
+            i.fa.fa-cog
+            | Settings
+        li
+          a href="#" 
+            i.fa.fa-bell
+            | Friends
+            span.label.label-info.pull-right.mail-info 5
+        li
+          a href="#" 
+            i.fa.fa-sign-out
+            | Log Out
+    /! user login dropdown end
+  /! End right navbar

@@ -1,0 +1,59 @@
+/! MarketingPlan => General
+.wraper.container-fluid
+  .page-title
+    h1.title.text-center Algemeen
+  .row
+    .panel-body
+      .col-md-6
+        .panel.panel-default
+          .panel-body
+            form.form-horizontal role="form" 
+              .form-group
+                .col-sm-12
+                  input#example-input-large.form-control.input-lg name="example-input-large" placeholder="Handelsnaam" type="text" /
+              .form-group
+                .col-sm-12
+                  input#example-input-large.form-control.input-lg name="example-input-large" placeholder=("KVK nr (wanneer in bezit)") type="text" /
+              .form-group
+                .col-sm-12
+                  input#example-input-large.form-control.input-lg name="example-input-large" placeholder=("Wie doet de administratie?") type="text" /
+              .form-group
+                .col-sm-12
+                  select.form-control.input-lg placeholder="Frequentie" 
+                    option Frequentie betalen omzetbelasting
+                    option Maandelijks
+                    option Per kwartaal
+                    option NVT
+              .form-group
+                .col-sm-12
+                  select.form-control.input-lg placeholder="Geslacht" 
+                    option Leveringsvoorwaarden geregeld door uw branche?
+                    option Ja
+                    option Nee
+              .form-group
+                .col-sm-12
+                  input#example-input-large.form-control.input-lg name="example-input-large" placeholder=("Heeft u een vergunning nodig?") type="text" /
+              .form-group
+                .col-sm-12
+                  input#example-input-large.form-control.input-lg name="example-input-large" placeholder=("Bent u zakelijk verzekerd?") type="text" /
+          /! panel-body
+        /! panel
+      /! col
+      .panel.panel-default
+        .panel-body
+          .col-md-6.portlets
+            /! Your awesome content goes here
+            .m-b-30
+              form#dropzone.dropzone action="#" 
+                .fallback
+                  input multiple="multiple" name="file" type="file" /
+      .col-md-1
+    /! End row
+    .col-sm-12
+      .panel.panel-default
+        .panel-heading
+          h3.panel-title.text-center Het idee
+        .panel-body.form-group
+          .summernote placeholder=("Omschrijf kort wat uw idee is en wat u uniek maakt ten opzichte van de concurrent. Vaak is juist de aanpak hetgeen dat u onderscheidt van uw concurrent.") 
+        button.btn.btn-success.btn-sm.m-b-5 type="submit"  Opslaan
+  /! End row

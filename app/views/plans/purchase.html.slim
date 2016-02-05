@@ -1,0 +1,126 @@
+
+header
+  section.hero
+    .container
+      .row.nav-wrapper
+        nav.navbar.navbar-custom
+          .container-fluid
+            /! Brand and toggle get grouped for better mobile display
+            .navbar-header
+              a.navbar-brand href="#" 
+                = image_tag 'logo.png', alt: 'logo'
+            /! Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                  a href="#how"  Ondernemingsplan maken
+                li
+                  a href="#features"  Tips
+                li
+                  a href="#pricing"  Contact
+                li
+                  a href="#"  Log In
+            /! /.navbar-collapse
+          /! /.container-fluid
+        /! end nav
+      /! End row
+      .row.hero-content.text-center
+        .col-sm-12
+          h1
+      /! End row
+    /! end container
+  /! end hero
+/! Main Content Start
+section.content
+  /! Header
+  /! Header Ends
+  /! Page Content Start
+  /! ==================
+  .container
+    .wraper.container-fluid
+      /! End row
+      section#pricing.section
+        .container
+          /! end row
+          .row.pt80
+            .col-md-10.col-md-offset-1
+              .row
+                .col-sm-4
+                  .price_card.text-center
+                    .header
+                      span.name Eenmalige download
+                      span.price1 €249
+                      button.btn.btn-default.w-md verder
+                    ul.price-features
+                      li Alle diagrammen en sjablonen
+                      li Financieel inzicht
+                  /! end Pricing_card
+                /! end col
+                .col-sm-4
+                  .price_card1.text-center
+                    span.recommended
+                      span aanbevolen
+                    .header
+                      span.name Unlimited pack
+                      span.price €79,-
+                      span.conditions 1ste week €79 daarna €9,95 per maand voor 1 jaar
+                      div
+                        button.btn.btn-success.w-md
+                          span Verder
+                          i.fa.fa-angle-right
+                    ul.price-features
+                      li Altijd toegang
+                      li Volledig zicht op je financiele situatie
+                      li Jaarlijks bijwerken
+                /! end col
+                .col-sm-4
+                  .price_card.text-center
+                    .header
+                      span.name Student
+                      span.price1 €39
+                      button.btn.btn-default.w-md verder
+                    ul.price-features
+                      li 1 maand toegang
+                      li Géén diagrammen beschikbaar
+                  /! end Pricing_card
+                /! end col
+              /! end row
+            /! end Col-10
+          /! end row
+        /! end Container
+    /! End row
+  /! container
+  /! Page Content Ends
+  /! ==================
+  /! Footer Start
+  footer.footer
+    .container
+      .row
+        .col-lg-3.col-md-3
+          a.navbar-brand-footer href="#" 
+            = image_tag 'logo.png', alt: 'logo'
+        .col-lg-4.col-lg-offset-3.col-md-7
+          ul.nav.navbar-nav
+            li
+              a href="#how"  How it works
+            li
+              a href="#features"  Features
+            li
+              a href="#pricing"  Pricing
+            li
+              a href="#clients"  Clients
+        .col-lg-2.col-md-2
+          ul.social-icons
+            li
+              a href="#" 
+                i.fa.fa-facebook
+            li
+              a href="#" 
+                i.fa.fa-twitter
+            li
+              a href="#" 
+                i.fa.fa-google-plus
+      /! end row
+    /! end container
+  /! Footer Ends
+/! Main Content Ends
