@@ -7,7 +7,7 @@ header
           .container-fluid
             /! Brand and toggle get grouped for better mobile display
             .navbar-header
-              a.navbar-brand href="#" 
+              a.navbar-brand href="/" 
                 = image_tag 'logo.png', alt: 'logo'
             /! Collect the nav links, forms, and other content for toggling
             #bs-example-navbar-collapse-1.collapse.navbar-collapse
@@ -44,7 +44,7 @@ header
                 span.visible-xs FINANCIEEL PLAN
                 span.hidden-xs FINANCIEEL PLAN
             li
-              a aria-expanded="false" data-toggle="tab" href="#settings-2" 
+              a aria-expanded="false" data-toggle="tab" href="#{}" 
                 span.visible-xs DOWNLOAD
                 span.hidden-xs DOWNLOAD
         .col-lg-1
@@ -1823,9 +1823,8 @@ section.content
                         .col-sm-2
                   /! End row
                   .col-sm-12.text-center
-                    button.btn.btn-success.btn-lg.m-b-5
-                      span Volgende stap
-                      i.fa.fa-angle-right
+                    = link_to 'Volgende stap<i class="fa fa-angle-right"></i>'.html_safe, purchase_plan_path(1), class: 'btn btn-success btn-lg m-b-5'
+                    
     /! End row
   /! container
   /! Page Content Ends

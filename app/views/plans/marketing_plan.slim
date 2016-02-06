@@ -1,0 +1,442 @@
+
+header
+  section.hero
+    .container
+      .row.nav-wrapper
+        nav.navbar.navbar-custom
+          .container-fluid
+            /! Brand and toggle get grouped for better mobile display
+            .navbar-header
+              a.navbar-brand href="/" 
+                = image_tag 'logo.png', alt: 'logo'
+            /! Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                  a href="#how"  Ondernemingsplan maken
+                li
+                  a href="#features"  Tips
+                li
+                  a href="#pricing"  Contact
+                li
+                  a href="#"  Log In
+            /! /.navbar-collapse
+          /! /.container-fluid
+        /! end nav
+      /! End row
+      .row.hero-content.text-center
+        .col-sm-12
+          h1 In 4 stappen een ondernemingsplan
+      .row
+        .col-lg-1
+        .col-lg-10
+          ul.nav.nav-tabs.nav-justified
+            li
+              a aria-expanded="false" data-toggle="tab" href="#home-2" 
+                span.visible-xs ALGEMEEN
+                span.hidden-xs ALGEMEEN
+            li.active
+              a aria-expanded="true" data-toggle="tab" href="#product-dienst-2" 
+                span.visible-xs MARKETINGPLAN
+                span.hidden-xs MARKETINGPLAN
+            li
+              a aria-expanded="false" data-toggle="tab" href="#messages-2" 
+                span.visible-xs FINANCIEEL PLAN
+                span.hidden-xs FINANCIEEL PLAN
+            li              
+              a aria-expanded="true" data-toggle="tab" href="#settings-2" 
+                span.visible-xs DOWNLOAD
+                span.hidden-xs DOWNLOAD
+        .col-lg-1
+      /! End row
+    /! end container
+  /! end hero
+/! Main Content Start
+section.content
+  /! Header
+  /! Header Ends
+  /! Page Content Start
+  /! ==================
+  .container
+    .wraper.container-fluid
+      .page-title
+      /! End row
+      .row
+        .col-lg-12
+          .tabs-vertical-env
+            ul.nav.tabs-vertical.hidden-xs
+              li.active
+                a aria-expanded="true" data-toggle="tab" href="#v-home"  Algemeen
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-product-dienst"  Product / Dienst
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-messages"  Markt
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-settings"  Marketingmix
+              li
+                a aria-expanded="false" data-toggle="tab" href="#v-bedrijfsformule"  Doelstellingen
+            .tab-content
+              #v-home.tab-pane.active
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Algemeen
+                        i.fa.fa-question-circle
+                      .panel-body
+                        .col-md-6
+                          .panel.panel-default
+                            .panel-body
+                              form.form-horizontal role="form" 
+                                .form-group
+                                  .col-sm-12
+                                    input#example-input-large.form-control.input-lg name="example-input-large" placeholder="Handelsnaam" type="text" /
+                                .form-group
+                                  .col-sm-12
+                                    input#example-input-large.form-control.input-lg name="example-input-large" placeholder=("KVK nr (wanneer in bezit)") type="text" /
+                                .form-group
+                                  .col-sm-12
+                                    input#example-input-large.form-control.input-lg name="example-input-large" placeholder=("Wie doet de administratie?") type="text" /
+                                .form-group
+                                  .col-sm-12
+                                    select.form-control.input-lg placeholder="Frequentie" 
+                                      option Frequentie betalen omzetbelasting
+                                      option Maandelijks
+                                      option Per kwartaal
+                                      option NVT
+                                .form-group
+                                  .col-sm-12
+                                    select.form-control.input-lg placeholder="Geslacht" 
+                                      option Leveringsvoorwaarden geregeld door uw branche?
+                                      option Ja
+                                      option Nee
+                                .form-group
+                                  .col-sm-12
+                                    input#example-input-large.form-control.input-lg name="example-input-large" placeholder=("Heeft u een vergunning nodig?") type="text" /
+                                .form-group
+                                  .col-sm-12
+                                    input#example-input-large.form-control.input-lg name="example-input-large" placeholder=("Bent u zakelijk verzekerd?") type="text" /
+                            /! panel-body
+                          /! panel
+                        /! col
+                        .panel.panel-default
+                          .panel-body
+                            .col-md-6.portlets
+                              /! Your awesome content goes here
+                              .m-b-30
+                                form#dropzone.dropzone action="#" 
+                                  .fallback
+                                    input multiple="multiple" name="file" type="file" /
+                        .col-md-1
+                      /! End row
+                      .panel-heading
+                        h3.panel-title.text-center Het idee
+                        i.fa.fa-question-circle
+                      .panel-body
+                        textarea.form-control placeholder=("Omschrijf kort wat uw idee is en wat u uniek maakt ten opzichte van de concurrent. Vaak is juist de aanpak hetgeen dat u onderscheidt van uw concurrent.") rows="4" 
+                    /! End row
+                    .col-sm-12.text-center
+                      button.btn.btn-success.btn-lg.m-b-5
+                        span Volgende stap
+                        i.fa.fa-angle-right
+              #v-product-dienst.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      div
+                        h2.panel-title1.text-center Product / Dienst
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title.text-center SWOT-analyse
+                      .panel-body
+                        .form-group
+                          .col-sm-1
+                            i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                          .col-sm-6
+                            p
+                              | Beschrijf de 3 grootste
+                              b kansen
+                              | voor uw onderneming. Van 1. het belangrijkst naar 3. het minst belangrijk.
+                          .col-sm-4
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("1. Grootste kans") type="text" /
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("2. Grote kans") type="text" /
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("3. Forse kans") type="text" /
+                          .col-sm-1
+                      .panel-body
+                        .form-group
+                          .col-sm-1
+                            i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                          .col-sm-6
+                            p
+                              | Beschrijf de 3 grootste
+                              b bedreigingen
+                              | voor uw onderneming. Van 1. het belangrijkst naar 3. het minst belangrijk.
+                          .col-sm-4
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("1. Grootste bedreiging") type="text" /
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("2. Grote bedreiging") type="text" /
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("3. Forse bedreiging") type="text" /
+                          .col-sm-1
+                      .panel-body
+                        .form-group
+                          .col-sm-1
+                            i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                          .col-sm-6
+                            p
+                              | Beschrijf de 3 grootste
+                              b zwaktes
+                              | van uw onderneming. Van 1. het belangrijkst naar 3. het minst belangrijk.
+                          .col-sm-4
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("1. Grootste zwakte") type="text" /
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("2. Grote zwakte") type="text" /
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("3. Forse zwakte") type="text" /
+                          .col-sm-1
+                      .panel-body
+                        .form-group
+                          .col-sm-1
+                            i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                          .col-sm-6
+                            p
+                              | Beschrijf de 3 grootste
+                              b krachten
+                              | van uw onderneming. Van 1. het belangrijkst naar 3. het minst belangrijk.
+                          .col-sm-4
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("1. Grootste kracht") type="text" /
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("2. Grote kracht") type="text" /
+                            input#example-input-normal.form-control name="example-input-normal" placeholder=("3. Forse kracht") type="text" /
+                          .col-sm-1
+                      .panel-heading
+                        h4.panel-title.text-center Conclusie
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="3" 
+                /! End row
+                .col-sm-12.text-center
+                  button.btn.btn-success.btn-lg.m-b-5
+                    span Volgende stap
+                    i.fa.fa-angle-right
+              #v-messages.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      div
+                        h2.panel-title1.text-center Markt
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title
+                          i.fa.fa-question-circle.text-left data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-original-title="" data-placement="right" data-toggle="popover" title="" 
+                          span.text-center Markt / Branche
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="4" 
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title.text-center Verleden
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="4" 
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title.text-center Toekomst
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="4" 
+                  .panel-heading
+                    h3.panel-title.text-center Doelgroep analyse
+                  .panel-body
+                    .form-group
+                      .col-sm-1
+                        i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                      .col-sm-5
+                        p Geslacht
+                      .col-sm-3
+                        select.form-control.input-lg placeholder="Geslacht" 
+                          option Selecteer
+                          option Man
+                          option Vrouw
+                          option Beide
+                      .col-sm-3
+                  .panel-body
+                    .form-group
+                      .col-sm-1
+                        i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                      .col-sm-5
+                        p Leeftijd
+                      .col-sm-3
+                        select.select2.form-control.input-lg data-placeholder=("Meerdere keuzes mogelijk") multiple="multiple" 
+                          option Alle leeftijden
+                          option Tieners
+                          option 20+
+                          option 30+
+                          option 40+
+                          option 50+
+                          option 60+
+                          option Senioren
+                      .col-sm-3
+                  .panel-body
+                    .form-group
+                      .col-sm-1
+                        i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                      .col-sm-5
+                        p Geografie
+                      .col-sm-3
+                        select.form-control.input-lg placeholder="Geslacht" 
+                          option Selecteer
+                          option Lokaal
+                          option Provinciaal
+                          option Nationaal
+                          option Internationaal
+                      .col-sm-3
+                  .panel-body
+                    .form-group
+                      .col-sm-1
+                        i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                      .col-sm-5
+                        p Reisbereidheid
+                      .col-sm-3
+                        select.form-control.input-lg placeholder="Geslacht" 
+                          option Selecteer
+                          option 0-2 km
+                          option ± 10 km
+                          option ± 50 km
+                          option ± 100 km
+                          option 100+ km
+                          option Niet van toepassing
+                      .col-sm-3
+                  .panel-body
+                    .form-group
+                      .col-sm-1
+                        i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                      .col-sm-5
+                        p Sociale klasse
+                      .col-sm-3
+                        select.select2.form-control.input-lg data-placeholder=("Meerdere keuzes mogelijk") multiple="multiple" 
+                          option Selecteer
+                          option Hogere klasse
+                          option Middenklasse
+                          option Lagere klasse
+                      .col-sm-3
+                  .panel-body
+                    .form-group
+                      .col-sm-1
+                        i.fa.fa-question-circle data-container="body" data-content=("Hoe sterk bent u in het bijhouden van uw eigen boekhouding? Of moet u iemand in dienst nemen die uw boekhouding voor u doet?") data-placement="left" data-toggle="popover" title="" 
+                      .col-sm-5
+                        p Soort klant
+                      .col-sm-3
+                        select.form-control.input-lg placeholder="Geslacht" 
+                          option Selecteer
+                          option B2B
+                          option B2C
+                          option Beide
+                      .col-sm-3
+                  .panel-body
+                    textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="3" 
+                /! End row
+                .col-sm-12.text-center
+                  button.btn.btn-success.btn-lg.m-b-5
+                    span Volgende stap
+                    i.fa.fa-angle-right
+              #v-settings.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      div
+                        h2.panel-title1.text-center Marketingmix
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title.text-center Product
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="4" 
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title.text-center Prijs
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="4" 
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title.text-center Plaats
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="4" 
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title.text-center Promotie
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="4" 
+                  .col-sm-12
+                    .panel.panel-default
+                      .panel-heading
+                        h3.panel-title.text-center Personeel
+                      .panel-body
+                        textarea.form-control placeholder="Omschrijf in het kort de sterktes, zwaktes, kansen en bedreigingen voor het bedrijf." rows="4" 
+                .col-sm-12.text-center
+                  button.btn.btn-success.btn-lg.m-b-5
+                    span Volgende stap
+                    i.fa.fa-angle-right
+              #v-bedrijfsformule.tab-pane
+                .row
+                  .col-sm-12
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Doelstellingen
+                        i.fa.fa-question-circle
+                      .panel-body
+                        textarea.form-control placeholder=("Omschrijf uw concurrenten zo gedetailleerd mogelijk. Verwerk het model 5 krachten model van Porter in uw conclussie wanneer u kiest voor de uitgebreide concurrentieanalyse.") rows="4" 
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Kwantitatief
+                        i.fa.fa-question-circle
+                      .panel-body
+                        textarea.form-control placeholder=("Omschrijf uw concurrenten zo gedetailleerd mogelijk. Verwerk het model 5 krachten model van Porter in uw conclussie wanneer u kiest voor de uitgebreide concurrentieanalyse.") rows="4" 
+                    .panel.panel-default
+                      /! Input States
+                      .panel-heading
+                        h3.panel-title.text-center Kwalitatief
+                        i.fa.fa-question-circle
+                      .panel-body
+                        textarea.form-control placeholder=("Omschrijf uw concurrenten zo gedetailleerd mogelijk. Verwerk het model 5 krachten model van Porter in uw conclussie wanneer u kiest voor de uitgebreide concurrentieanalyse.") rows="4" 
+                    /! End row
+                    .col-sm-12.text-center
+                      = link_to 'Volgende stap<i class="fa fa-angle-right"></i>'.html_safe, financial_plan_plan_path(1), class: 'btn btn-success btn-lg m-b-5'
+                      
+      /! End row
+  /! container
+  /! Page Content Ends
+  /! ==================
+  /! Footer Start
+  footer.footer
+    .container
+      .row
+        .col-lg-3.col-md-3
+          a.navbar-brand-footer href="#" 
+            = image_tag 'logo.png', alt: 'logo'
+        .col-lg-5.col-lg-offset-2.col-md-7
+          ul.nav.navbar-nav
+            li
+              a href="#how"  How it works
+            li
+              a href="#features"  Features
+            li
+              a href="#pricing"  Pricing
+            li
+              a href="#clients"  Clients
+        .col-lg-2.col-md-2
+          ul.social-icons
+            li
+              a href="#" 
+                i.fa.fa-facebook
+            li
+              a href="#" 
+                i.fa.fa-twitter
+            li
+              a href="#" 
+                i.fa.fa-google-plus
+      /! end row
+    /! end container
+  /! Footer Ends
+/! Main Content Ends

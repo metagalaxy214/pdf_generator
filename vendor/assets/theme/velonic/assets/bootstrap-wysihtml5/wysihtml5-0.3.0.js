@@ -171,7 +171,7 @@ window['rangy'] = (function() {
             if (areHostMethods(testRange, domRangeMethods) && areHostProperties(testRange, domRangeProperties)) {
                 implementsDomRange = true;
             }
-            testRange.detach();
+            // testRange.detach();
         }
 
         var body = isHostObject(document, "body") ? document.body : document.getElementsByTagName("body")[0];
@@ -2349,8 +2349,8 @@ rangy.createModule("DomUtil", function(api, module) {
 
             // Clean up
             dom.getBody(document).removeChild(testTextNode);
-            range.detach();
-            range2.detach();
+            // range.detach(); //miljan
+            // range2.detach(); //miljan
         })();
 
         api.createNativeRange = function(doc) {

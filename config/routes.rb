@@ -8,9 +8,9 @@ Rails.application.routes.draw do
   root 'home#index'
   resources :plans do 
     member do 
-      get 'personal'
       get 'general'
-      get 'investments'
+      get 'marketing_plan'
+      get 'financial_plan'
       get 'purchase'
       get 'preview'
     end

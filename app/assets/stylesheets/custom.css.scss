@@ -1,0 +1,31 @@
+#home-page {
+    .hero {
+        background: #333b4d none repeat scroll 0 0 / cover ;
+        color: #fff;
+        min-height: 720px;
+        padding: 30px 0 0;
+        position: relative;
+    }
+    .hero {
+        height: 100%;
+        width: 100%;
+    }
+    .hero .btn-success {
+        margin: 35px auto 0;
+        width: 500px;
+    }
+    #macbook {
+        background: rgba(0, 0, 0, 0) url("../images/mac.png") repeat scroll 0 0;
+        height: 484px;
+        margin: 50px auto 0;
+        width: 967px;
+    }
+    #tour {
+        height: 432px;
+        left: -4px;
+        margin: 0 auto;
+        position: relative;
+        top: 22px;
+        width: 652px;
+    }
+}

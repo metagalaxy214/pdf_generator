@@ -10,12 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
+// require jquery
+// require jquery_ujs
 // require_tree .
 
-
+//= require velonic/js/jquery
 //= require velonic/js/bootstrap.min.js
 //= require velonic/js/pace.min
 //= require velonic/js/wow.min.js

@@ -34,7 +34,8 @@ header
           h1 In 4 stappen een ondernemingsplan
           .row.text-center
             p.slogan Geen financiele of marketing kennis nodig!
-            button.btn.btn-block.btn-success.btn-lg.m-b-5 Start Direct
+            = link_to 'Start Direct', personal_plan_path(1), class: 'btn btn-block btn-success btn-lg m-b-5'
+            
       #macbook
         #tour.carousel.slide data-ride="carousel" 
           /! Indicators

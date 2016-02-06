@@ -9,7 +9,7 @@
 
     /**
     Sidebar Module
-    */
+    */    
     var SideBar = function() {
         this.$body = $("body"),
         this.$sideBar = $('aside.left-panel'),
