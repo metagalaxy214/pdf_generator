@@ -1,7 +1,7 @@
 
 
-$( document ).ready(function() {
-  $('.summernote').summernote({
+jQuery( document ).ready(function() {
+  jQuery('.summernote').summernote({
       height: 200, // set editor height
 
       minHeight: null, // set minimum height of editor
@@ -43,20 +43,20 @@ jQuery(document).ready(function() {
             });
             //colorpicker start
 
-            $('.colorpicker-default').colorpicker({
+            jQuery('.colorpicker-default').colorpicker({
                 format: 'hex'
             });
-            $('.colorpicker-rgba').colorpicker();
+            jQuery('.colorpicker-rgba').colorpicker();
 
 
             //multiselect start
 
-            $('#my_multi_select1').multiSelect();
-            $('#my_multi_select2').multiSelect({
+            jQuery('#my_multi_select1').multiSelect();
+            jQuery('#my_multi_select2').multiSelect({
                 selectableOptgroup: true
             });
 
-            $('#my_multi_select3').multiSelect({
+            jQuery('#my_multi_select3').multiSelect({
                 selectableHeader: "<input type='text' class='form-control search-input' autocomplete='off' placeholder='search...'>",
                 selectionHeader: "<input type='text' class='form-control search-input' autocomplete='off' placeholder='search...'>",
                 afterInit: function(ms) {
@@ -93,16 +93,16 @@ jQuery(document).ready(function() {
             });
 
             //spinner start
-            $('#spinner1').spinner();
-            $('#spinner2').spinner({
+            jQuery('#spinner1').spinner();
+            jQuery('#spinner2').spinner({
                 disabled: true
             });
-            $('#spinner3').spinner({
+            jQuery('#spinner3').spinner({
                 value: 0,
                 min: 0,
                 max: 10
             });
-            $('#spinner4').spinner({
+            jQuery('#spinner4').spinner({
                 value: 0,
                 step: 5,
                 min: 0,

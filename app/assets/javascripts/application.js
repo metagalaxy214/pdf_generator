@@ -14,7 +14,10 @@
 // require jquery_ujs
 // require_tree .
 
+
 //= require velonic/js/jquery
+// require prototype
+
 //= require velonic/js/bootstrap.min.js
 //= require velonic/js/pace.min
 //= require velonic/js/wow.min.js
